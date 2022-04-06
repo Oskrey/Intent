@@ -26,8 +26,8 @@ public class MainActivity2 extends AppCompatActivity {
         finish();
     }
     public void cancel(View view) {
-        Intent oldintent = getIntent();
-        String getMsg = oldintent.getStringExtra("message");
+        Intent oldIntent = getIntent();
+        String getMsg = oldIntent.getStringExtra("message");
         Intent intent = new Intent(this, MainActivity.class);
         intent.putExtra("message", getMsg);
         startActivity(intent);

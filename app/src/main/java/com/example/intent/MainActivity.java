@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
     {
         AlertDialog.Builder a_builder = new AlertDialog.Builder(MainActivity.this);
 
-        a_builder.setMessage(getString(R.string.ExitMessage)).setIcon(R.drawable.alert).setNegativeButton("Отмена", new DialogInterface.OnClickListener() {
+        a_builder.setMessage(getString(R.string.ExitMessage)).setTitle(getString(R.string.Alert)).setIcon(R.drawable.alert).setNegativeButton("Отмена", new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int id) {dialog.cancel();}}).setPositiveButton("Выйти", new DialogInterface.OnClickListener() {
         public void onClick(DialogInterface dialog, int id) {finish();}});
         a_builder.show();

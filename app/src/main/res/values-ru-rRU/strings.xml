@@ -6,4 +6,5 @@
     <string name="ButtonOk">Ок</string>
     <string name="ButtonCancel">Отмена</string>
     <string name="ExitMessage">Вы уверены что хотите выйти</string>
+    <string name="Alert">Внимание!</string>
 </resources>
