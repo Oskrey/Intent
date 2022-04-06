@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Intent</string>
+    <string name="ButtonDialog">Open dialog</string>
+    <string name="ButtonExit">Exit app</string>
+    <string name="ButtonOk">Ok</string>
+    <string name="ButtonCancel">Cancel</string>
+    <string name="ExitMessage">Are you shure you want to exit?</string>
 </resources>

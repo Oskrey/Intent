@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Intent</string>
+    <string name="ButtonDialog">Открыть диалог</string>
+    <string name="ButtonExit">"Выйти "</string>
+    <string name="ButtonOk">Ок</string>
+    <string name="ButtonCancel">Отмена</string>
+    <string name="ExitMessage">Вы уверены что хотите выйти</string>
+</resources>
